@@ -1,1 +1,55 @@
+body {
+    background-color: #f4f1ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 8px solid #2d5a27; /* Verde Floresta */
+}
+
+h1 {
+    color: #5d4037; /* Marrom Pinhão */
+}
+
+#pinha {
+    font-size: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    user-select: none;
+    margin: 20px 0;
+}
+
+#pinha:active {
+    transform: scale(0.9);
+}
+
+.stats {
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5d4037;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e2723;
+}

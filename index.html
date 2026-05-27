@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colheita de Pinhão - PR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="container">
+        <header>
+            <h1>Ciclo do Pinhão no Paraná</h1>
+            <p>Clique na pinha para realizar a colheita!</p>
+        </header>
+
+        <main>
+            <div id="game-container">
+                <div id="pinha" onclick="colher()">
+                    🌲
+                </div>
+                <div class="stats">
+                    <p>Pinhões colhidos: <span id="contador">0</span></p>
+                    <p>Status: <span id="status">Aguardando época (Abril)</span></p>
+                </div>
+                <button onclick="reiniciar()">Reiniciar Colheita</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Preserve a Araucária angustifólia 🌳</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
